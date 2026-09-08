@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Poppins', 'Montserrat', system-ui, -apple-system, sans-serif;
+  }
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Montserrat', 'Poppins', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@keyframes shimmerGold {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, rgba(255,215,0,0) 0%, rgba(255,215,0,0.6) 50%, rgba(255,215,0,0) 100%);
+  background-size: 200% 100%;
+  animation: shimmerGold 2.5s infinite;
+}

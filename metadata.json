@@ -1,0 +1,6 @@
+{
+  "name": "Tudo Maraş Dondurma",
+  "description": "1981'den günümüze geleneksel Maraş dondurması, el yapımı özel üretim çiğ köfte, bardakta süt mısır ve Helvacı Ali irmik helvası kurumsal web sitesi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
