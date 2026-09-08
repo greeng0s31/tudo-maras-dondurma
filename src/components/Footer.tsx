@@ -132,9 +132,8 @@ export const Footer: React.FC = () => {
               <li className="text-neutral-400 text-xs">
                 3 şubemiz hizmetinizde • Bizi ziyaret edin
               </li>
-              <li className="text-neutral-400 text-xs">
-                Hafta içi: 10:00 - 23:00 <br />
-                Hafta sonu: 10:00 - 00:00
+              <li className="text-neutral-300 text-xs font-semibold">
+                Açık Olduğumuz Saatler: <span className="text-[#E5A812] font-bold">13:00 - 01:00</span>
               </li>
             </ul>
           </div>

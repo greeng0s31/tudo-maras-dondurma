@@ -111,22 +111,20 @@ export const ContactSection: React.FC = () => {
                 </p>
               </div>
 
-              {/* Exact Working Hours requested:
-                  Hafta içi 10:00-23:00, Hafta sonu 10:00-00:00 */}
+              {/* Dükkan Açık Olan Saatleri: 13:00 - 01:00 */}
               <div className="mt-4 space-y-2 text-xs font-semibold">
-                <div className="flex items-center justify-between p-2.5 rounded-xl bg-neutral-900 border border-neutral-800">
-                  <span className="text-neutral-400 flex items-center gap-1.5">
-                    <Clock className="w-3.5 h-3.5 text-neutral-500" />
-                    Hafta İçi
+                <div className="flex items-center justify-between p-3 rounded-xl bg-neutral-900 border border-neutral-800">
+                  <span className="text-neutral-400 flex items-center gap-2">
+                    <Clock className="w-4 h-4 text-[#E5A812]" />
+                    Çalışma Saatleri
                   </span>
-                  <span className="text-white font-bold">10:00 - 23:00</span>
+                  <span className="text-[#E5A812] font-black text-sm tracking-wide">13:00 - 01:00</span>
                 </div>
-                <div className="flex items-center justify-between p-2.5 rounded-xl bg-neutral-900 border border-neutral-800">
-                  <span className="text-neutral-400 flex items-center gap-1.5">
-                    <Clock className="w-3.5 h-3.5 text-[#E5A812]" />
-                    Hafta Sonu
+                <div className="flex items-center justify-between p-2.5 rounded-xl bg-neutral-900/60 border border-neutral-850">
+                  <span className="text-neutral-400 text-[11px]">
+                    Hergün Açığız (Gece 01:00'e Kadar)
                   </span>
-                  <span className="text-[#E5A812] font-bold">10:00 - 00:00</span>
+                  <span className="text-emerald-400 text-[11px] font-bold">Hizmetinizdeyiz</span>
                 </div>
               </div>
             </div>

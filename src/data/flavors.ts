@@ -17,7 +17,7 @@ import imgTekTopLimon from '../assets/images/tek_top_limon_1788862414526.jpg';
 import imgTekTopCilek from '../assets/images/tek_top_cilek_1788862397492.jpg';
 import imgTekTopKavun from '../assets/images/tek_top_kavun_1788862378982.jpg';
 import imgTekTopNutella from '../assets/images/tek_top_nutella_1788862361436.jpg';
-import imgTekTopAronia from '../assets/images/tek_top_aronia_1788862340393.jpg';
+import imgTekTopAronia from '../assets/images/tek_top_aronia_koyu_1788888175502.jpg';
 import imgTekTopBogurtlen from '../assets/images/tek_top_bogurtlen_1788862321621.jpg';
 import imgTekTopOreo from '../assets/images/tek_top_oreo_1788862298393.jpg';
 
@@ -203,7 +203,7 @@ export const ICE_CREAM_FLAVORS: IceCreamFlavor[] = [
     name: 'Aronia',
     emoji: '🫐',
     category: 'berry',
-    description: 'Süper meyve aronia (yaban mersini) ile hazırlanan antioksidan deposu mor lezzet.',
+    description: 'Süper meyve aronia ile hazırlanan, koyu siyah-mor tonlarında ve antioksidan deposu derin lezzet.',
     color: '#E5A812',
     bgGradient: 'from-neutral-900 via-neutral-900 to-black border-amber-500/30',
     textColor: '#FBBF24',

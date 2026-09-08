@@ -86,10 +86,10 @@ export const HelvaSection: React.FC = () => {
               </div>
               <div className="flex items-center gap-3 p-3.5 rounded-xl bg-[#1A1A1A] border border-neutral-800">
                 <span className="w-9 h-9 rounded-lg bg-black text-[#E5A812] border border-[#E5A812]/40 flex items-center justify-center font-bold text-sm shrink-0">
-                  🌰
+                  🥜
                 </span>
                 <span className="text-xs sm:text-sm font-semibold text-neutral-200">
-                  Taze çekilmiş Antep fıstığı ve tarçın ilavesiyle zengin sunum.
+                  Taze kavrulmuş çıtır yer fıstığı ve tarçın ilavesiyle zengin sunum.
                 </span>
               </div>
             </div>
